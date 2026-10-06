@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    
+    <!--Elaborado por Fernando Rodriguez Medel, 1972993, IEC-->
+    <!--Actividad 2.2 Tabla compleja-->
+
+    <head>
+        <meta charset="UTF-8"> <!--Necesario para incluir acentos-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Actividad 2.2 </title>
+        <!--Se adjunta archivo CSS externo-->
+        <link rel="stylesheet" type="text/css" href="..\Recursos\stylesheet.css">
+    </head>
+
+    <body>
+    <!--Título personal para la página-->
+        <h1> Ejercicio de la Actividad 2.2 </h1>
+    
+    <!--Título solicitado para la página-->
+        <h2> Página de ejemplo de tabla </h2>
+    
+    <!--Tabla compleja, contiene dos columnas y 3 filas-->
+        <table border="1">
+
+            <!--Título de la tabla con la etiqueta <caption>-->
+            <caption>
+                <strong>Esto es una tabla de muestra pequeña</strong>
+            </caption>
+
+            <!--Encabezado de la tabla, contiene 2 columnas combinadas por medio de <colspan>-->
+            <thead>
+                <th colspan="2">Encabezado de la tabla</th>
+            </thead>
+
+            <!--Cuerpo de la tabla, contiene 2 columnas combinadas por medio de <colspan>-->
+            <tbody>
+                <th colspan="2">Este es el cuerpo</th>
+            </tbody>
+            
+            <!--Pie de tabla, contiene dos columnas en la misma fila-->
+            <tfoot>
+                <th>
+                    Este es el pie de la
+                    <td>
+                    tabla
+                    </td>
+                </th>
+            </tfoot>
+    
+        </table>
+        
+        <!--Como añadido extra se incluye un botón para regresar a la página del índice-->
+        <p>
+        <button class="button">
+            <a href="..\Índice.html">Volver a página de inicio</a>
+        </button>
+        </p>
+    
+    </body>
+</html>
